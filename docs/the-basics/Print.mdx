@@ -1,0 +1,137 @@
+---
+sidebar_position: 3
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+The `print` prints the specified message to the screen, or other standard output device 💻. 
+
+The message can be a character 🔠, or a number 🔢, the object will be converted into a string before written to the screen.
+
+- Print stuff to the screen.
+- Print the pointer value or value in the memory or any number.
+- Print ASCII characters.
+
+## The ASCII
+
+But printing numbers alone is not that useful. Here's how we can print almost any character 🔠. To do this, Infant Lang makes use of the ASCII table. 
+
+In the ASCII table, the numbers, characters, symbols as we know them, are assigned to a number. This number can be passed to the print that prints the ASCII equivalent of the number.
+
+:::tip
+
+Find out the ASCII equavalents from [this table](https://www.ascii-code.com/).
+
+:::
+
+## Special Characters
+
+Print also have special keywords that can be used to print the following:
+- `new` for printing a new line
+- `tab` for printing a tab
+- `space` for printing a space
+
+<Tabs
+    defaultValue="new"
+    values={[
+        {label: 'New Line', value: 'new'},
+        {label: 'Tab', value: 'tab'},
+        {label: 'Space', value: 'space'},
+    ]}>
+<TabItem value="new">
+
+    print new
+
+</TabItem>
+<TabItem value="tab">
+
+    print tab
+
+</TabItem>
+<TabItem value="space">
+
+    print space
+
+</TabItem>
+</Tabs>
+
+:::danger
+
+Adding no tokens such as a number or memory or pointer or the above special characters will throw an error and stops the execution of the program.
+
+<Tabs
+    defaultValue="correct"
+    values={[
+        {label: 'Correct', value: 'correct'},
+        {label: 'Wrong', value: 'wrong'},
+    ]}>
+<TabItem value="correct">
+
+    print new
+
+</TabItem>
+<TabItem value="wrong">
+
+    # Wrong - ❌ This will throw an error ❌
+    print 
+
+</TabItem>
+</Tabs>
+
+:::
+
+## The `char`
+Remember Infant Lang also prints the ASCII equivalent of the number? It uses this `char` keyword to print the ASCII equivalent of the number. Let's see how it works:
+
+To print the letter `A`, we must know the ASCII equivalent of the letter.
+
+:::info
+
+The **ASCII** equivalent of `A` is `65`
+
+:::
+
+We then print the char of `65`. We can pass number or pointer or the memory to the `print`
+
+<Tabs
+    defaultValue="direct"
+    values={[
+        {label: 'Direct Print', value: 'direct'},
+        {label: 'With Memory', value: 'memory'},
+        {label: 'With Pointer', value: 'pointer'},
+    ]}>
+<TabItem value="javascript">
+
+    print char 65
+
+</TabItem>
+<TabItem value="memory">
+
+    memory = 65
+    print char memory
+
+</TabItem>
+<TabItem value="pointer">
+
+    move pointer right 65
+    print char pointer
+
+</TabItem>
+</Tabs>
+
+The Output is:
+```shell
+A
+```
+
+:::caution
+
+The `char` keyword can only print the ASCII equivalent of the number 🔢. It cannot print the number itself.
+
+It is **case sensitive** 👩‍💻
+
+This is still a work in progress. It may or may not print Unicode characters which depends on the the terminal 💀
+
+:::
