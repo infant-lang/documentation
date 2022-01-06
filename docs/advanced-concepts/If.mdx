@@ -1,0 +1,71 @@
+---
+sidebar_position: 1
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+The `if` statement is a programming conditional statement that, if proved true, performs a function or displays information.
+
+- Do simple stuff 🦆 with the `if`.
+- No `else` block to confuse the infants 🧒
+- Simple arithmetic conditions works. 😒
+
+## Do more with the `if` 🐱‍🏍
+Use the ‘if’ to do conditional stuff like checking if the memory is 79 or the pointer is 320. Give it a try!! 
+
+:::danger
+
+But **no negative integers** thou… 😖
+
+The `if` cannot handle negative numbers be it the pointer or the memory or the number itself.
+
+:::
+
+It can check a bunch of conditions like:
+- `if` the memory is equal to the pointer
+- `if` the memory is greater than the pointer and many more...
+
+<Tabs
+    defaultValue="pointer"
+    values={[
+        {label: 'With Pointer and Memory', value: 'pointer'},
+        {label: 'With a Number', value: 'number'},
+    ]}>
+<TabItem value="pointer">
+
+    if pointer == memory print char memory
+
+</TabItem>
+<TabItem value="number">
+
+    if memory == 79 print char 79
+
+</TabItem>
+</Tabs>
+
+It also supports logical checking 🧠 with `&&`, `||` and `!`.
+
+<Tabs
+    defaultValue="and"
+    values={[
+        {label: 'Logical AND &&', value: 'and'},
+        {label: 'Logical OR ||', value: 'or'},
+        {label: 'Logical NOT !', value: 'not'},
+    ]}>
+<TabItem value="and">
+
+    if pointer && memory print char memory
+
+</TabItem>
+<TabItem value="or">
+
+    if memory || pointer print new
+
+</TabItem>
+<TabItem value="not">
+
+    if memory != 79 print char pointer
+
+</TabItem>
+</Tabs>
