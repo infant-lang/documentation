@@ -1,0 +1,17 @@
+{
+    "short_name": "Infant Lang",
+    "name": "Infant Lang",
+    "description": "Infant Lang Documentation",
+    "icons": [
+      {
+        "src": "logo.png",
+        "type": "image/png",
+        "sizes": "256x256",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "theme_color": "#FFFFFF"
+  }
