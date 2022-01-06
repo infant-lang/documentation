@@ -1,0 +1,58 @@
+---
+sidebar_position: 4
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+:::info
+
+The **Arithmetic** module is still in beta 👶
+
+:::
+
+- Infant lang supports basic arithmetic of integers.
+- Throws error if a division returns a decimal 💀
+- Throws error if pointer or memory becomes negative 💀
+
+:::note
+
+**Division by zero** is still not possible 😒
+
+Division by zero is technically not possible 😏
+
+:::
+
+Addition ➕, subtraction ➖, multiplication ✖ and division ➗ of two numbers, with memory or with the pointer and store it in the memory 📦
+
+<Tabs
+    defaultValue="pointers"
+    values={[
+        {label: 'With Pointers', value: 'pointers'},
+        {label: 'With Memory', value: 'memory'},
+        {label: 'With a Number', value: 'number'},
+    ]}>
+<TabItem value="pointers">
+
+    memory = pointer - pointer
+
+</TabItem>
+<TabItem value="memory">
+
+    memory = memory * memory
+
+</TabItem>
+<TabItem value="number">
+
+    memory = pointer * 13
+
+</TabItem>
+</Tabs>
+
+:::danger
+
+After an arithmetic operation, the `memory` must be assigned to the result of the operation. Otherwise, the program will stop executing 💀
+
+This will be fixed in the next version of Infant Lang.
+
+:::
