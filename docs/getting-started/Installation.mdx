@@ -1,0 +1,71 @@
+---
+sidebar_position: 1
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+:::caution
+
+The Interpreter for Infant Lang is available only for Windows PCs with `amd64` architecture. Please wait for the next release with support for other architectures.
+
+:::
+
+:::tip
+
+To Check whether your PC's architecture is `amd64` or not, use the following command:
+- Open 🧚‍♂️ Command Prompt
+- Type 👩‍💻 the following command:
+```shell
+ echo %PROCESSOR_ARCHITECTURE%
+```
+- The output includes one of the following values: x86 for a 32-bit CPU, AMD64 for a 64-bit CPU, or ARM64.
+- If the output is `AMD64`, then you can use the Interpreter for Infant Lang 🥳
+
+:::
+
+:::info
+
+You can download the Interpreter for Infant Lang from [Github Releases](https://github.com/infant-lang/interpreter/releases)
+
+:::
+
+## Instructions
+
+- Download ☑ the zip file from the Releases page.
+- Open `Run` 🏃‍♀️ and Type `%USERPROFILE%` and press OK
+- Create a folder 📂 `bin` if not already created 👶
+- Extract 👉 the zip file to `bin`
+- Open Command Prompt and type 👩‍💻 the following commands:
+    - ```shell
+    setx INFANT_HOME "%USERPROFILE%\bin\infant"
+    ```
+    - ```shell
+    setx PATH "%INFANT_HOME%;%PATH%"
+    ```
+- Close ❌ the Command Prompt.
+
+## Check the installation
+
+Run the following command in the terminal:
+
+<Tabs
+    defaultValue="powershell"
+    values={[
+        {label: 'PowerShell or Windows Terminal', value: 'powershell'},
+        {label: 'Command Prompt', value: 'cmd'},
+    ]}>
+<TabItem value="powershell">
+
+    infant -v
+
+</TabItem>
+<TabItem value="cmd">
+
+    infant --version
+
+</TabItem>
+</Tabs>
+
+If you get a version number, then Infant Lang is installed successfully 🎉🥳
+
