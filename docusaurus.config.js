@@ -16,6 +16,36 @@ const config = {
   organizationName: 'infant-lang', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
 
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/logo.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json', // your PWA manifest
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#FFFFFF',
+          },
+        ]
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
