@@ -6,7 +6,7 @@ authors:
   title: Infant Lang Core Team
   url: https://github.com/tharunoptimus
   image_url: https://github.com/tharunoptimus.png
-tags: [konnichiwa, infantlang, interpreter]
+tags: [konnichiwa, infantlang, interpreter, releases]
 ---
 
 I'm very much happy to announce that Infant Lang 👶 is now in a pre-release phase. 🎉🥳 
