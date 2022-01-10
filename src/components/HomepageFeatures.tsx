@@ -25,10 +25,9 @@ const FeatureList: FeatureItem[] = [
 		image: "/img/lightning.svg",
 		description: (
 			<>
-				The Interpreter for Infant Lang is written in Go, the C for the
-				21st century 🥇. The Interpreter is super fast ⚡ and with the
-				power of VSCode extensions, it is extremely 🦸‍♀️ easy to get
-				started with.
+				The Interpreter for Infant Lang is written in Go making it super
+				fast ⚡ and it is extremely simple 🦸‍♀️ to get started with,
+				thanks to the power of VSCode extensions.
 			</>
 		),
 	},
@@ -37,9 +36,10 @@ const FeatureList: FeatureItem[] = [
 		image: "/img/baby.svg",
 		description: (
 			<>
-				Not a joke, the syntax is super easy that a 3 year old 👶 can
-				easily learn 🏫. It has basic things such as a moveable pointer 👆, a
-				memory box 📦 and some print statements 🖨
+				It's not a joke; the syntax is so simple that even a
+				three-year-old 👶 can learn it 🏫. It relies on basic things
+				like as a moving pointer👆, a memory box 📦, and some print 🖨
+				statements.
 			</>
 		),
 	},
