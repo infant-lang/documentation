@@ -117,8 +117,7 @@ Error: open no.infant: The system cannot find the file specified.
 ## No Arguments Error
 No Arguments Error gets thrown when the interpreter tries to execute a command without any arguments.
 Possible Solutions: 
-- Check if the command has arguments.
-- Check if the command has a file name.
+- Check if the command has a file name as an argument.
 - Check if the command has a valid flag. For eg. `infant -v`
 
 Example:
@@ -132,6 +131,6 @@ Usage: infant <filename>.infant
 
 :::info
 
-The **No Arguments Error** will be removed in the future builds, for Infant Lang has plans for an Interpreter Mode.
+The **No Arguments Error** will be removed in the future builds, for Infant Lang has plans for implementing an Interpreter Mode.
 
 :::
