@@ -10,6 +10,7 @@ The `print` prints the specified message to the screen, or other standard output
 
 The message can be a character 🔠, or a number 🔢, the object will be converted into a string before written to the screen.
 
+## tldr;
 - Print stuff to the screen.
 - Print the pointer value or value in the memory or any number.
 - Print ASCII characters.
@@ -18,7 +19,7 @@ The message can be a character 🔠, or a number 🔢, the object will be conver
 
 But printing numbers alone is not that useful. Here's how we can print almost any character 🔠. To do this, Infant Lang makes use of the ASCII table. 
 
-In the ASCII table, the numbers, characters, symbols as we know them, are assigned to a number. This number can be passed to the print that prints the ASCII equivalent of the number.
+In the ASCII table, the numbers, characters, symbols as we know them, are assigned to a number. This number can be passed to the `char` that prints the ASCII equivalent of the number.
 
 :::tip
 
@@ -69,6 +70,7 @@ Adding no tokens such as a number or memory or pointer or the above special char
     ]}>
 <TabItem value="correct">
 
+    # Correct ✅ This will move the cursor to the next line
     print new
 
 </TabItem>
@@ -89,7 +91,7 @@ To print the letter `A`, we must know the ASCII equivalent of the letter.
 
 :::info
 
-The **ASCII** equivalent of `A` is `65`
+The **ASCII** equivalent of **A** is **65**
 
 :::
 
@@ -102,7 +104,7 @@ We then print the char of `65`. We can pass number or pointer or the memory to t
         {label: 'With Memory', value: 'memory'},
         {label: 'With Pointer', value: 'pointer'},
     ]}>
-<TabItem value="javascript">
+<TabItem value="direct">
 
     print char 65
 
@@ -128,7 +130,7 @@ A
 
 :::caution
 
-The `char` keyword can only print the ASCII equivalent of the number 🔢. It cannot print the number itself.
+The `char` keyword can only print the ASCII equivalent of the number 🔢
 
 It is **case sensitive** 👩‍💻
 
