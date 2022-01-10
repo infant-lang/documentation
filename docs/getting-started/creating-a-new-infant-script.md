@@ -22,7 +22,7 @@ New-Item -Path 'C:\Users\user\Desktop\hello.infant' - ItemType File
 
 :::tip
 
-Install the Visual Studio Code editor and install the Infant Lang Extension to edit files with the `.infant` more easily with syntax highlighting and code completion.
+Install the Visual Studio Code editor and install the Infant Lang Extension to edit **Infant Scripts** files more easily with syntax highlighting and code completion.
 
 :::
 
@@ -73,6 +73,6 @@ MEOW
 ```
 
 ## Congratulations! 🎉 
-You have successfully created a new file, written a script, and ran it.
+You successfully created a new file 🤖, wrote an Infant script 🥇, and executed it 🏃‍♀️.
 
 Let's learn more about Infant Lang!
