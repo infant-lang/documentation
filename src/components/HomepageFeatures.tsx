@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
 		),
 	},
 	{
-		title: "Aimed at Infants",
+		title: "Made with 💕 for Infants 👶",
 		image: "/img/baby.svg",
 		description: (
 			<>
