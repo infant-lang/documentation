@@ -14,7 +14,7 @@ Assigning memory to a negative number with assignment or any other operation wil
 
 :::
 
-## More about the memory
+## tldr;
 - A single memory block 📦 is available to store 🏪 an integer initialized to zero.
 - Store a number into memory for later use ⌚
 - Memory is always initialized to zero for null safety. It can store only integers. No decimals. 💀
