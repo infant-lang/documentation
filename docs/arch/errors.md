@@ -31,6 +31,11 @@ moce pointer right 15
   👆
 ```
 
+Defined in the `errors.go` as 
+```go 
+func printError(line string, lineNumber int, i int) 
+```
+
 ## Expected Token Error
 
 Expected Token error gets thrown when the parser expects a token to execute but it couldn't find it. 
@@ -51,6 +56,11 @@ Expected 'pointer or memory or number' at line number '1'
 👉 memory =
 ```
 
+It is defined in the `errors.go` file
+```go
+func printExpectedTokenError(line string, lineNumber int, expectedToken string)
+```
+
 ## Unexpected String Error
 
 UnExpected String error gets thrown when the parser finds a legal token but it expects a different token. 
@@ -69,6 +79,11 @@ In the above code, we have two pointers. Infant Lang sees that we have two point
 💀 Unexpected String Literal
 Unexpected String Literal 'pointer' at line number '1'
 👉 memory pointer pointer
+```
+
+It is defined in the `errors.go` file.
+```go
+func printParseError(line string, lineNumber int, token string)
 ```
 
 ## Runtime Error
@@ -100,6 +115,11 @@ When the interpreter tries to store a negative number in the memory, it throws t
 - ### Memory Cannot Have Decimal Values
 When the interpreter tries to store a decimal number in the memory, it throws a Memory Cannot Have Decimal Values error. Often thrown when the memory is initialized with a decimal value or initialized by an arithmetic operation that results in a decimal value.
 
+Defined in the `errors.go` file as
+```go
+func runtimeError(line string, lineNumber int, errorMessage string)
+```
+
 ## File Access Error
 File Access Error gets thrown when the interpreter tries to access a file that does not exist.
 Possible Solutions: 
@@ -112,6 +132,11 @@ infant no.infant
 
 💀 Unable to Access File: no.infant
 Error: open no.infant: The system cannot find the file specified.
+```
+
+Defined in the `errors.go` file as:
+```go
+func printFileAccessError(errorMessage string, err string)
 ```
 
 ## No Arguments Error
@@ -127,6 +152,16 @@ infant
 Usage: infant <filename>.infant
 
 💀 Exiting...
+```
+
+Defined in the `errors.go` file.
+```go
+func noArguments() {
+	fmt.Println("\n💀 No file name provided. Please provide a file name.")
+	fmt.Println("Usage: infant <filename>.infant")
+	fmt.Println("\n💀 Exiting...")
+	os.Exit(1)
+}
 ```
 
 :::info
