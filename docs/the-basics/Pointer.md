@@ -8,14 +8,14 @@ The most important concept in Infant Lang is the **pointer** 👆
 
 The pointer is a number that points to the position of the arrow in the number line 📊
 
-The pointer always holds `0` or a positive number.
+The pointer is initialized to point the box 0. It can point only to whole numbers.
 
 It can move `left` or `right` but cannot go beyond the limits of the `whole number line`
 
-## More about the pointer
+## tldr;
 
-- One dimensional array of size 35000 is available all initialized from 0 to 35000.
 - The Pointer is initialized to point the 0 box 📦
+- The Pointer can hold only whole numbers 📊
 - The pointer can be moved with the `move` 🚗 keyword.
 - The pointer can be moved left or right with the `left` 👈 and `right` 👉 keywords.
 
@@ -23,22 +23,22 @@ It can move `left` or `right` but cannot go beyond the limits of the `whole numb
 
 The pointer can be moved left or right with the `left` and `right` keywords. Let's see how it works:
 
-In the `hello.infant` file, we have the following code:
+Have a look at the following snippet:
 ```infant
-move pointer left 8
+move pointer right 
 ```
 
-### What does this code do?
-The `move pointer left 8` moves the pointer left 8 boxes 📦. Which in reality will increase the pointer by 8 👈. We can also move the pointer right with the `right` keyword.
+## What does this code do?
+The `move pointer right` moves the pointer right 1 box 📦. Which in reality will increase the pointer by 1 👈. We can also move the pointer right with the `left` keyword.
 
 :::danger
 
-Moving Pointer value to a negative number will cause the pointer to go beyond the limits of the `whole number line` 📊. It will throw an error.
+Moving Pointer value to a negative number will cause the pointer to go beyond the limits of the **whole number line** 📊. It will throw an error and stops the execution of the script.
 
 :::
 
 ## Move pointer for more than one box
-The pointer can be moved for more than one box with the `move` keyword. This is called the `movement number`. The `movement number` defaults to `0`. Let's see how it works:
+The pointer can be moved for more than one box with the `movement number` associated with the `move` keyword. The `movement number` defaults to `1`. Let's see how it works:
 
 ```infant
 # This line will move the pointer to the right by one box
