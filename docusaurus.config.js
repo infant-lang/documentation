@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Infant Lang',
-  tagline: 'Documentation for Minimalistic Less Esoteric Programming Language Infant Lang',
+  tagline: 'A Minimalistic Less Esoteric Programming Language for Infants',
   url: 'https://infant-lang.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
