@@ -1,6 +1,6 @@
 ---
-slug: prerelease-post
-title: Prerelease Post
+slug: prerelease-blog
+title: Prerelease Blog
 authors:
   name: tharunoptimus
   title: Infant Lang Core Team
