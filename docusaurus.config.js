@@ -87,7 +87,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/infant-lang/documentation',
+            href: 'https://github.com/infant-lang',
             label: 'GitHub',
             position: 'right',
           },
