@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Infant Lang is a programming language that is designed to be **easy to learn** and **easy to use**.
 
-It depends on four main concepts: (Inspired by BrainFuck 🧠)
+It depends on four main concepts: (Inspired by BrainF**k 🧠)
 - **Memory** 📦
 - **Pointer** 🖇
 - **Print** 🖊

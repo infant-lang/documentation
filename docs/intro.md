@@ -8,7 +8,7 @@ Let's discover **Infant Lang in less than 5 minutes**.
 
 ## How did we get here?
 
-- Inspired by BrainFuck 🧠 but does things in a less esoteric way.
+- Inspired by Brainf**k 🧠 but does things in a less esoteric way.
 - More elegant keywords for infants 👶
 - Manual simplified control over the pointer 👆
 - Conditional implementation with the simple `if` ❓

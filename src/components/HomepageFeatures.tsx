@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
 		description: (
 			<>
 				Infant 👶 Lang is a programming language that is designed to be
-				easy to learn and easy to use. Inspired by Brain Fuck 🧠, it is
+				easy to learn and easy to use. Inspired by BrainF**k 🧠, it is
 				less esoteric and more fun to learn.
 			</>
 		),
