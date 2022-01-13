@@ -19,6 +19,10 @@ function HomepageHeader() {
             to="/docs/intro">
             Get Started - 5min 🏃‍♀️
           </Link>
+          
+          <h2>Or Try Infant Lang now with the <a className={styles.playgroundAnchor} href='https://infant-lang-playground.netlify.app'>Playground!</a> now! 🐱‍🏍 </h2>
+
+          
         </div>
       </div>
     </header>

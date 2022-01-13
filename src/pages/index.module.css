@@ -16,8 +16,20 @@
   }
 }
 
+.playgroundAnchor {
+  color: white;
+  text-decoration: underline;
+}
+
+.playgroundAnchor:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
 .buttons {
   display: flex;
+  flex-direction: column;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
 }
